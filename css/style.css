@@ -143,7 +143,6 @@ img {
 
   /* Mobile */
 @media screen and (max-width: 480px){
-
     .row {
         flex-direction: column;
         align-items: center;
@@ -151,14 +150,40 @@ img {
 
     .why-us{
         background-color: #222222;
-        margin: -50 0 0;
+        margin-top: -3rem;
+        margin-bottom: 0;
+        padding: 3.125rem 0.8rem;
     }
 
     .row .col{
         width: 100%;
     }
 
+    .why-us .row .col:last-child ul li:first-child{
+       padding-top: 4rem;
+    }
+
+    .steps{
+        padding-bottom: 3rem;
+    }
+
     .card{
-        margin: 0 50px 65px;
+        margin: 0 1.25rem 4rem;
+    }
+
+    .row .col:last-child .card{
+        margin-bottom: 0;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .text, p{
+        font-size: 1.25rem;
     }
 }
